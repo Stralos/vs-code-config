@@ -1,0 +1,91 @@
+{
+  "explorer.compactFolders": false,
+  "breadcrumbs.enabled": true,
+  "workbench.editor.showTabs": false,
+  "files.autoSave": "afterDelay",
+  "workbench.sideBar.location": "left",
+  "workbench.activityBar.visible": true,
+  "workbench.statusBar.visible": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "javascript.validate.enable": false,
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.statusBar.enabled": false,
+  "editor.renderIndentGuides": false,
+  "eslint.enable": true,
+  "cSpell.words": ["nbsp", "keyframes", "reselect", "Formik"],
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#303030",
+    "statusBar.noFolderBackground": "#222225",
+    "statusBar.debuggingBackground": "#511f1f"
+  },
+  "npm.runSilent": true,
+  "window.zoomLevel": 0,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/public/assets/": true
+  },
+  "workbench.panel.defaultLocation": "bottom",
+  "explorer.confirmDragAndDrop": false,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": true,
+    "suppressShowKeyBindingsNotice": true,
+    "suppressUpdateNotice": true,
+    "suppressWelcomeNotice": true
+  },
+  "material-icon-theme.showUpdateMessage": false,
+  "gitlens.keymap": "alternate",
+  "explorer.confirmDelete": false,
+  "cSpell.allowCompoundWords": true,
+  "svgviewer.transparencycolor": "#000000",
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
+  "extensions.ignoreRecommendations": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.userWords": ["GDPDU", "Janne", "initialise", "testid", "unmount"],
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "gitlens.gitCommands.closeOnFocusOut": true,
+  //https://github.com/microsoft/vscode/issues/95346#issuecomment-626912507
+  "editor.tokenColorCustomizations": {
+    "[Default Dark+]": {
+      "textMateRules": [
+        {
+          "scope": ["variable.other.constant", "variable.other.enummember"],
+          "settings": {
+            "foreground": "#9CDCFE"
+          }
+        }
+      ]
+    }
+  }
+}
